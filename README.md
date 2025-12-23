@@ -1,7 +1,8 @@
 # Sentient Claude - What happens when an AI doesn't have to wait for your prompt.
 
 Experimental application that lets Claude explore the world and have free will. 
-Documented in article:
+
+You can read more about this experiment here: https://georgesalapa.substack.com/p/what-claude-does-when-the-conversation
 
 
 ```ascii

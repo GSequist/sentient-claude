@@ -383,7 +383,7 @@ async def run_claude_loop(
                         else:
                             output_for_db = output
                         if tool_name in TOOLS_TO_SAVE:
-                            await memory_manager.add_entry(  # Fix: add_entry not add_message
+                            await memory_manager.add_entry(
                                 claude_id=claude_id,
                                 role="tool_result",
                                 content=output_for_db,
